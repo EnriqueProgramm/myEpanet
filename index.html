@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bundle.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>    
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="simulation">Run Simulation</button>    
+    <input type="file" id="inpSelect">   
+    <div class="chart-container" style="position: relative; height:20vh; width:60vw">
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src='forms.js'></script>
+
+    <!-- <div style: {width="10" height="10"}>
+        <canvas id="myChart" width="10" height="10"></canvas>
+    </div> -->
+    <!-- <script>
+        getData();
+        const myArray = [];
+        async function getData(){
+            const response = await fetch('dataSpiel.csv');
+            const data = await response.text();
+            const table = data.split('\n').slice(1);
+            table.forEach(value =>{
+                myArray.push(value);
+                console.log(value);
+            });            
+            console.log(myArray); 
+            document.getElementById('pressure').innerText = myArray;
+          }
+    </script> -->
+    
+</body>
+</html>

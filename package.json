@@ -1,0 +1,16 @@
+{
+  "name": "fireproblem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^2.0.2",
+    "browserify": "^16.5.1",
+    "epanet-js": "^0.3.0"
+  }
+}
