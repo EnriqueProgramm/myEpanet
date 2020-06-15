@@ -10,11 +10,31 @@
 <body>
     
     <button id="simulation">Run Simulation</button>    
-    <input type="file" id="inpSelect">   
+    <input type="file" id="inpSelect">  
+    <!-- select one node -->
+    <div>        
+        <Label>Select one Node</Label>
+        <select id = "selectNode">
+            <option value="default"></option>
+        </select> 
+    </div>
+    <!-- select one pipe -->
+    <div>        
+        <Label>Select one Pipe</Label>
+        <select id = "selectPipe">
+            <option value="default"></option>
+        </select> 
+    </div>
+
+
+
     <div class="chart-container" style="position: relative; height:20vh; width:60vw">
         <canvas id="myChart"></canvas>
-    </div>
+    </div>   
     <script src='forms.js'></script>
+
+    
+
 
     <!-- <div style: {width="10" height="10"}>
         <canvas id="myChart" width="10" height="10"></canvas>
